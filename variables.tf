@@ -25,9 +25,7 @@ variable "sku_name" {
 }
 
 variable "admins" {
-  type     = set(string)
-  default  = []
-  nullable = false
+  type = set(string)
 }
 
 variable "getters" {
